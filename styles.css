@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --font-family: 'Press Start 2P', cursive;
+  --normal-font: 350;
+  --bold-font: 550;
+  --line-height: 3rem;
+  --transition: 0.4s ease-in;
+}
+
+h1 {
+  font-family: var(--font-family);
+}
+
+nav {
+  display: flex;
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+img {
+  position: relative;
+  margin-left: 800px;
+}
+
+.man {
+  float: left;
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+}
+
+.female {
+  position: relative;
+  margin-left: 380px;
+  margin-top: -560px;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  align-self: center;
+  margin-left: 850px;
+  font-family: 'Unna', serif;
+}
+
+#header {
+  font-size: 25px;
+}
+
+#text {
+  font-family: 'Unna', serif;
+  font-size: 30px;
+}
+
+#button {
+  background: #5e60ce;
+  font-family: var(--font-family);
+  padding: 0.5cm;
+  border-radius: 5px;
+}
+
+button:hover {
+  animation-name: rainbow;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rainbow {
+  100% {
+    background-color: #2e2f81;
+  }
+}
